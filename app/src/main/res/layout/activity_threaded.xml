@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadedActivity">
+
+    <ImageView
+        android:id="@+id/imgVwProfil"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="507dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars[1]" />
+
+    <TextView
+        android:id="@+id/txtvwhello"
+        android:layout_width="299dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="380dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTakePic"
+        android:layout_width="132dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="452dp"
+        android:onClick="fnTakePic"
+        android:text="Take Picture!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
